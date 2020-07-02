@@ -1,0 +1,30 @@
+.car {
+    background-color: #5e81f4;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+    font-size: 25px;
+    margin: auto;
+    align-self: center;
+    padding: 10px;
+}
+
+@media(max-width:499) {
+    .car {
+        font-weight: 400;
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
+.car{
+    font-size: 15px;
+}
+
+}
